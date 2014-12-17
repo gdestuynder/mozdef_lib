@@ -1,3 +1,18 @@
+===================
+DEPRECATION WARNING
+===================
+
+.. warning::
+
+        This lib has been superseded by mozdef_client: https://github.com/gdestuynder/mozdef_client
+        This has been done to avoid confusion with "internal" mozdef libs and imports.
+
+If converting to the new lib, you'll need to import mozdef_client instead of mozdef.
+
+.. code::
+
+        import mozdef_client
+
 mozdef_lib
 ==========
 
